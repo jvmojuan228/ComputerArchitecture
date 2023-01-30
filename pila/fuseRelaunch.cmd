@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/pila/pila_isim_beh.exe" -prj "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/pila/pila_beh.prj" "work.pila" 

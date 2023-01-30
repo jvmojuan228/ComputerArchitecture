@@ -1,0 +1,4 @@
+vhdl work "../registro_sp/registro_16b.vhd"
+vhdl work "../ram/ram.vhd"
+vhdl work "../program_counter/program_counter.vhd"
+vhdl work "pila.vhd"

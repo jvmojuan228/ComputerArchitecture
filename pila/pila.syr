@@ -1,0 +1,503 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: pila.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pila.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pila"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : pila
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\registro_sp\registro_16b.vhd" into library work
+Parsing entity <registro_sp>.
+Parsing architecture <Behavioral> of entity <registro_sp>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ram\ram.vhd" into library work
+Parsing entity <ram>.
+Parsing architecture <Behavioral> of entity <ram>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\program_counter\program_counter.vhd" into library work
+Parsing entity <program_counter>.
+Parsing architecture <Behavioral> of entity <program_counter>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\pila\pila.vhd" into library work
+Parsing entity <pila>.
+Parsing architecture <Behavioral> of entity <pila>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <pila> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <program_counter> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registro_sp> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ram> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pila>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\pila\pila.vhd".
+    Found 16-bit adder for signal <PCmas_aux> created at line 74.
+    Found 4-bit adder for signal <sp_mas_menos_aux> created at line 75.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   3 Multiplexer(s).
+Unit <pila> synthesized.
+
+Synthesizing Unit <program_counter>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\program_counter\program_counter.vhd".
+    Found 16-bit register for signal <q_PC>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <program_counter> synthesized.
+
+Synthesizing Unit <registro_sp>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\registro_sp\registro_16b.vhd".
+    Found 4-bit register for signal <Osp_aux>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <registro_sp> synthesized.
+
+Synthesizing Unit <ram>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ram\ram.vhd".
+    Found 16x16-bit single-port RAM <Mram_dato> for signal <dato>.
+    Found 16-bit register for signal <O>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <ram> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x16-bit single-port RAM                             : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 3
+ 16-bit register                                       : 2
+ 4-bit register                                        : 1
+# Multiplexers                                         : 3
+ 16-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <pila>.
+The following registers are absorbed into counter <cto1/q_PC>: 1 register on signal <cto1/q_PC>.
+The following registers are absorbed into accumulator <cto2/Osp_aux>: 1 register on signal <cto2/Osp_aux>.
+Unit <pila> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ram>.
+INFO:Xst:3231 - The small RAM <Mram_dato> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     clkA           | connected to signal <clk_w>         | rise     |
+    |     weA            | connected to signal <VCC>           | high     |
+    |     addrA          | connected to signal <A>             |          |
+    |     diA            | connected to signal <I>             |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <ram> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x16-bit single-port distributed RAM                 : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 4-bit up loadable accumulator                         : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Multiplexers                                         : 1
+ 16-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <pila> ...
+WARNING:Xst:1710 - FF/Latch <cto2/Osp_aux_0> (without init value) has a constant value of 1 in block <pila>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <ram> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pila, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pila.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 54
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT4                        : 1
+#      LUT5                        : 17
+#      MUXCY                       : 15
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 35
+#      FD                          : 16
+#      FDC                         : 16
+#      FDP                         : 3
+# RAMS                             : 16
+#      RAM32X1S                    : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 19
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              35  out of  126800     0%  
+ Number of Slice LUTs:                   37  out of  63400     0%  
+    Number used as Logic:                21  out of  63400     0%  
+    Number used as Memory:               16  out of  19000     0%  
+       Number used as RAM:               16
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     37
+   Number with an unused Flip Flop:       2  out of     37     5%  
+   Number with an unused LUT:             0  out of     37     0%  
+   Number of fully used LUT-FF pairs:    35  out of     37    94%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    210    17%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+clk                                | BUFGP                    | 19    |
+cto3/clk_w(cto3/clk_w1:O)          | NONE(*)(cto3/Mram_dato16)| 16    |
+cto3/clk_r(cto3/clk_r1:O)          | NONE(*)(cto3/O_15)       | 16    |
+-----------------------------------+--------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.816ns (Maximum Frequency: 550.630MHz)
+   Minimum input arrival time before clock: 1.930ns
+   Maximum output required time after clock: 0.650ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.816ns (frequency: 550.630MHz)
+  Total number of paths / destination ports: 142 / 19
+-------------------------------------------------------------------------
+Delay:               1.816ns (Levels of Logic = 17)
+  Source:            cto1/q_PC_0 (FF)
+  Destination:       cto1/q_PC_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cto1/q_PC_0 to cto1/q_PC_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.361   0.305  cto1/q_PC_0 (cto1/q_PC_0)
+     LUT5:I4->O            1   0.097   0.000  cto1/Mcount_q_PC_lut<0> (cto1/Mcount_q_PC_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  cto1/Mcount_q_PC_cy<0> (cto1/Mcount_q_PC_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<1> (cto1/Mcount_q_PC_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<2> (cto1/Mcount_q_PC_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<3> (cto1/Mcount_q_PC_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<4> (cto1/Mcount_q_PC_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<5> (cto1/Mcount_q_PC_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<6> (cto1/Mcount_q_PC_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<7> (cto1/Mcount_q_PC_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<8> (cto1/Mcount_q_PC_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<9> (cto1/Mcount_q_PC_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<10> (cto1/Mcount_q_PC_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<11> (cto1/Mcount_q_PC_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<12> (cto1/Mcount_q_PC_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<13> (cto1/Mcount_q_PC_cy<13>)
+     MUXCY:CI->O           0   0.023   0.000  cto1/Mcount_q_PC_cy<14> (cto1/Mcount_q_PC_cy<14>)
+     XORCY:CI->O           1   0.370   0.000  cto1/Mcount_q_PC_xor<15> (cto1/Mcount_q_PC15)
+     FDC:D                     0.008          cto1/q_PC_15
+    ----------------------------------------
+    Total                      1.816ns (1.511ns logic, 0.305ns route)
+                                       (83.2% logic, 16.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 448 / 38
+-------------------------------------------------------------------------
+Offset:              1.930ns (Levels of Logic = 18)
+  Source:            cs (PAD)
+  Destination:       cto1/q_PC_15 (FF)
+  Destination Clock: clk rising
+
+  Data Path: cs to cto1/q_PC_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   0.001   0.778  cs_IBUF (cs_IBUF)
+     LUT5:I0->O            1   0.097   0.000  cto1/Mcount_q_PC_lut<0> (cto1/Mcount_q_PC_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  cto1/Mcount_q_PC_cy<0> (cto1/Mcount_q_PC_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<1> (cto1/Mcount_q_PC_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<2> (cto1/Mcount_q_PC_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<3> (cto1/Mcount_q_PC_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<4> (cto1/Mcount_q_PC_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<5> (cto1/Mcount_q_PC_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<6> (cto1/Mcount_q_PC_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<7> (cto1/Mcount_q_PC_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<8> (cto1/Mcount_q_PC_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<9> (cto1/Mcount_q_PC_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<10> (cto1/Mcount_q_PC_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<11> (cto1/Mcount_q_PC_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<12> (cto1/Mcount_q_PC_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  cto1/Mcount_q_PC_cy<13> (cto1/Mcount_q_PC_cy<13>)
+     MUXCY:CI->O           0   0.023   0.000  cto1/Mcount_q_PC_cy<14> (cto1/Mcount_q_PC_cy<14>)
+     XORCY:CI->O           1   0.370   0.000  cto1/Mcount_q_PC_xor<15> (cto1/Mcount_q_PC15)
+     FDC:D                     0.008          cto1/q_PC_15
+    ----------------------------------------
+    Total                      1.930ns (1.151ns logic, 0.778ns route)
+                                       (59.7% logic, 40.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.650ns (Levels of Logic = 1)
+  Source:            cto1/q_PC_15 (FF)
+  Destination:       sal<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: cto1/q_PC_15 to sal<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.361   0.289  cto1/q_PC_15 (cto1/q_PC_15)
+     OBUF:I->O                 0.000          sal_15_OBUF (sal<15>)
+    ----------------------------------------
+    Total                      0.650ns (0.361ns logic, 0.289ns route)
+                                       (55.5% logic, 44.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.816|         |         |         |
+cto3/clk_r     |    2.022|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cto3/clk_r
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.133|         |         |         |
+cto3/clk_w     |    1.149|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cto3/clk_w
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.769|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.16 secs
+ 
+--> 
+
+Total memory usage is 4618092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+
