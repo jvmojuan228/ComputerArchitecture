@@ -1,0 +1,657 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: procesador.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "procesador.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "procesador"
+Output Format                      : NGC
+Target Device                      : xc7a100t-2-csg324
+
+---- Source Options
+Top Module Name                    : procesador
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\Registro.vhd" into library work
+Parsing entity <registro>.
+Parsing architecture <Behavioral> of entity <registro>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\multiplexor.vhd" into library work
+Parsing entity <multiplexor>.
+Parsing architecture <Behavioral> of entity <multiplexor>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\decodificador.vhd" into library work
+Parsing entity <decodificador>.
+Parsing architecture <Behavioral> of entity <decodificador>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\sreg.vhd" into library work
+Parsing entity <sreg>.
+Parsing architecture <Behavioral> of entity <sreg>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\rom.vhd" into library work
+Parsing entity <rom>.
+Parsing architecture <Behavioral> of entity <rom>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\program_counter.vhd" into library work
+Parsing entity <program_counter>.
+Parsing architecture <Behavioral> of entity <program_counter>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\ext_sig_rjmp.vhd" into library work
+Parsing entity <ext_sig_rjmp>.
+Parsing architecture <Behavioral> of entity <ext_sig_rjmp>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\EXT_SIG_BRNCH.vhd" into library work
+Parsing entity <ext_sig_br>.
+Parsing architecture <Behavioral> of entity <ext_sig_br>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\Decodificador_instruccion.vhd" into library work
+Parsing entity <Decodificador_instruccion>.
+Parsing architecture <Behavioral> of entity <decodificador_instruccion>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\archivo_reg.vhd" into library work
+Parsing entity <archivo_reg>.
+Parsing architecture <Behavioral> of entity <archivo_reg>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\Alu.vhd" into library work
+Parsing entity <Alu>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.vhd" into library work
+Parsing entity <procesador>.
+Parsing architecture <Behavioral> of entity <procesador>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <procesador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Decodificador_instruccion> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <program_counter> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <rom> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <archivo_reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <decodificador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registro> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\jvmom\OneDrive\Escritorio\procesador\Registro.vhd" Line 18: s should be on the sensitivity list of the process
+
+Elaborating entity <multiplexor> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Alu> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <sreg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ext_sig_rjmp> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ext_sig_br> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <procesador>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.vhd".
+INFO:Xst:3210 - "C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.vhd" line 145: Output port <cs> of the instance <cto1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.vhd" line 145: Output port <r_w> of the instance <cto1> is unconnected or connected to loadless signal.
+    Found 16-bit adder for signal <I_PC_aux> created at line 129.
+    Found 16-bit adder for signal <off_rjmp_aux[15]_GND_5_o_add_1_OUT> created at line 134.
+    Found 16-bit adder for signal <off_br_aux[15]_GND_5_o_add_3_OUT> created at line 133.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   6 Multiplexer(s).
+Unit <procesador> synthesized.
+
+Synthesizing Unit <Decodificador_instruccion>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\Decodificador_instruccion.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_rel>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Br>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Bn>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <en_w>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <en_port>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <en_sreg>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ld_mov>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <cs>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_alu<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_alu<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_alu<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_d<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_d<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_d<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_d<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_d<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_r<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_r<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_r<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_r<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_read_r<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <sel_w_d<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <l_d>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 5-bit comparator equal for signal <I[8]_I[9]_equal_3_o> created at line 76
+    Summary:
+	inferred  23 Latch(s).
+	inferred   1 Comparator(s).
+	inferred  84 Multiplexer(s).
+Unit <Decodificador_instruccion> synthesized.
+
+Synthesizing Unit <program_counter>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\program_counter.vhd".
+    Found 16-bit register for signal <q_PC>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <program_counter> synthesized.
+
+Synthesizing Unit <rom>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\rom.vhd".
+    Found 64x16-bit Read Only RAM for signal <_n0212>
+    Found 1-bit tristate buffer for signal <O<15>> created at line 41
+    Found 1-bit tristate buffer for signal <O<14>> created at line 41
+    Found 1-bit tristate buffer for signal <O<13>> created at line 41
+    Found 1-bit tristate buffer for signal <O<12>> created at line 41
+    Found 1-bit tristate buffer for signal <O<11>> created at line 41
+    Found 1-bit tristate buffer for signal <O<10>> created at line 41
+    Found 1-bit tristate buffer for signal <O<9>> created at line 41
+    Found 1-bit tristate buffer for signal <O<8>> created at line 41
+    Found 1-bit tristate buffer for signal <O<7>> created at line 41
+    Found 1-bit tristate buffer for signal <O<6>> created at line 41
+    Found 1-bit tristate buffer for signal <O<5>> created at line 41
+    Found 1-bit tristate buffer for signal <O<4>> created at line 41
+    Found 1-bit tristate buffer for signal <O<3>> created at line 41
+    Found 1-bit tristate buffer for signal <O<2>> created at line 41
+    Found 1-bit tristate buffer for signal <O<1>> created at line 41
+    Found 1-bit tristate buffer for signal <O<0>> created at line 41
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <rom> synthesized.
+
+Synthesizing Unit <archivo_reg>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\archivo_reg.vhd".
+    Summary:
+	no macro.
+Unit <archivo_reg> synthesized.
+
+Synthesizing Unit <decodificador>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\decodificador.vhd".
+    Found 32x32-bit Read Only RAM for signal <sel_w_d[4]_PWR_38_o_wide_mux_0_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <decodificador> synthesized.
+
+Synthesizing Unit <registro>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\Registro.vhd".
+    Found 8-bit register for signal <qaux>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+Synthesizing Unit <multiplexor>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\multiplexor.vhd".
+    Found 8-bit 32-to-1 multiplexer for signal <O> created at line 32.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <multiplexor> synthesized.
+
+Synthesizing Unit <Alu>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\Alu.vhd".
+    Found 8-bit adder for signal <A[7]_B[7]_add_0_OUT> created at line 49.
+    Found 8-bit subtractor for signal <GND_65_o_GND_65_o_sub_2_OUT<7:0>> created at line 50.
+    Found 8-bit 8-to-1 multiplexer for signal <F_aux> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 Multiplexer(s).
+Unit <Alu> synthesized.
+
+Synthesizing Unit <sreg>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\sreg.vhd".
+    Found 1-bit register for signal <sal_sreg_aux>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <sreg> synthesized.
+
+Synthesizing Unit <ext_sig_rjmp>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\ext_sig_rjmp.vhd".
+WARNING:Xst:647 - Input <ent_rjmp<15:12>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <ext_sig_rjmp> synthesized.
+
+Synthesizing Unit <ext_sig_br>.
+    Related source file is "C:\Users\jvmom\OneDrive\Escritorio\procesador\EXT_SIG_BRNCH.vhd".
+WARNING:Xst:647 - Input <ent_br<2:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ent_br<15:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <ext_sig_br> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit single-port Read Only RAM                   : 1
+ 64x16-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 3
+ 16-bit adder                                          : 2
+ 8-bit addsub                                          : 1
+# Registers                                            : 35
+ 1-bit register                                        : 1
+ 16-bit register                                       : 1
+ 8-bit register                                        : 33
+# Latches                                              : 23
+ 1-bit latch                                           : 23
+# Comparators                                          : 1
+ 5-bit comparator equal                                : 1
+# Multiplexers                                         : 100
+ 1-bit 2-to-1 multiplexer                              : 84
+ 16-bit 2-to-1 multiplexer                             : 4
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 9
+ 8-bit 32-to-1 multiplexer                             : 2
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <decodificador>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_sel_w_d[4]_PWR_38_o_wide_mux_0_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <sel_w_d>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <decodificador> synthesized (advanced).
+
+Synthesizing (advanced) Unit <procesador>.
+The following registers are absorbed into accumulator <cto2/q_PC>: 1 register on signal <cto2/q_PC>.
+Unit <procesador> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0212> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <A<5:0>>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <rom> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit single-port distributed Read Only RAM       : 1
+ 64x16-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit addsub                                          : 1
+# Accumulators                                         : 1
+ 16-bit up accumulator                                 : 1
+# Registers                                            : 265
+ Flip-Flops                                            : 265
+# Comparators                                          : 1
+ 5-bit comparator equal                                : 1
+# Multiplexers                                         : 100
+ 1-bit 2-to-1 multiplexer                              : 84
+ 16-bit 2-to-1 multiplexer                             : 4
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 9
+ 8-bit 32-to-1 multiplexer                             : 2
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <cs> (without init value) has a constant value of 1 in block <Decodificador_instruccion>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <registro> ...
+
+Optimizing unit <procesador> ...
+
+Optimizing unit <archivo_reg> ...
+
+Optimizing unit <Alu> ...
+
+Optimizing unit <Decodificador_instruccion> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block procesador, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 281
+ Flip-Flops                                            : 281
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : procesador.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 449
+#      GND                         : 1
+#      LUT2                        : 16
+#      LUT3                        : 17
+#      LUT4                        : 10
+#      LUT5                        : 16
+#      LUT6                        : 289
+#      MUXCY                       : 37
+#      MUXF7                       : 22
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 303
+#      FDC                         : 17
+#      FDCE                        : 264
+#      LD                          : 22
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 1
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             303  out of  126800     0%  
+ Number of Slice LUTs:                  348  out of  63400     0%  
+    Number used as Logic:               348  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    581
+   Number with an unused Flip Flop:     278  out of    581    47%  
+   Number with an unused LUT:           233  out of    581    40%  
+   Number of fully used LUT-FF pairs:    70  out of    581    12%  
+   Number of unique control sets:        35
+
+IO Utilization: 
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    210     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)  | Load  |
+-----------------------------------------------------------------+------------------------+-------+
+clk                                                              | BUFGP                  | 281   |
+cto1/I[15]_PWR_7_o_Mux_37_o(cto1/Mmux_I[15]_PWR_7_o_Mux_37_o11:O)| BUFG(*)(cto1/sel_alu_0)| 22    |
+-----------------------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.064ns (Maximum Frequency: 197.478MHz)
+   Minimum input arrival time before clock: 0.913ns
+   Maximum output required time after clock: 0.737ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.064ns (frequency: 197.478MHz)
+  Total number of paths / destination ports: 190130 / 281
+-------------------------------------------------------------------------
+Delay:               5.064ns (Levels of Logic = 12)
+  Source:            cto4/cto26/qaux_0 (FF)
+  Destination:       cto7/sal_sreg_aux (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cto4/cto26/qaux_0 to cto7/sal_sreg_aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.398   0.654  cto4/cto26/qaux_0 (cto4/cto26/qaux_0)
+     LUT6:I2->O            1   0.105   0.649  cto4/cto_mux_d/Mmux_O_81 (cto4/cto_mux_d/Mmux_O_81)
+     LUT6:I2->O            1   0.105   0.000  cto4/cto_mux_d/Mmux_O_3 (cto4/cto_mux_d/Mmux_O_3)
+     MUXF7:I1->O           3   0.308   0.463  cto4/cto_mux_d/Mmux_O_2_f7 (O_d_aux<0>)
+     LUT3:I1->O            1   0.105   0.000  cto6/Mmux_F_aux1_rs_lut<0> (cto6/Mmux_F_aux1_rs_lut<0>)
+     MUXCY:S->O            1   0.392   0.000  cto6/Mmux_F_aux1_rs_cy<0> (cto6/Mmux_F_aux1_rs_cy<0>)
+     MUXCY:CI->O           1   0.025   0.000  cto6/Mmux_F_aux1_rs_cy<1> (cto6/Mmux_F_aux1_rs_cy<1>)
+     MUXCY:CI->O           1   0.025   0.000  cto6/Mmux_F_aux1_rs_cy<2> (cto6/Mmux_F_aux1_rs_cy<2>)
+     MUXCY:CI->O           1   0.025   0.000  cto6/Mmux_F_aux1_rs_cy<3> (cto6/Mmux_F_aux1_rs_cy<3>)
+     MUXCY:CI->O           1   0.025   0.000  cto6/Mmux_F_aux1_rs_cy<4> (cto6/Mmux_F_aux1_rs_cy<4>)
+     XORCY:CI->O           2   0.417   0.362  cto6/Mmux_F_aux1_rs_xor<5> (cto6/Mmux_F_aux1_split<5>)
+     LUT5:I4->O            1   0.105   0.780  cto6/Mmux_F_aux763 (F_aux<5>)
+     LUT6:I1->O            1   0.105   0.000  cto7/sal_sreg_aux_rstpot (cto7/sal_sreg_aux_rstpot)
+     FDC:D                     0.015          cto7/sal_sreg_aux
+    ----------------------------------------
+    Total                      5.064ns (2.155ns logic, 2.909ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 281 / 281
+-------------------------------------------------------------------------
+Offset:              0.913ns (Levels of Logic = 1)
+  Source:            clr (PAD)
+  Destination:       cto2/q_PC_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: clr to cto2/q_PC_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           281   0.001   0.515  clr_IBUF (clr_IBUF)
+     FDC:CLR                   0.397          cto2/q_PC_0
+    ----------------------------------------
+    Total                      0.913ns (0.398ns logic, 0.515ns route)
+                                       (43.6% logic, 56.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              0.737ns (Levels of Logic = 1)
+  Source:            cto5/qaux_7 (FF)
+  Destination:       portb<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: cto5/qaux_7 to portb<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.398   0.339  cto5/qaux_7 (cto5/qaux_7)
+     OBUF:I->O                 0.000          portb_7_OBUF (portb<7>)
+    ----------------------------------------
+    Total                      0.737ns (0.398ns logic, 0.339ns route)
+                                       (54.0% logic, 46.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+clk                        |    5.064|         |         |         |
+cto1/I[15]_PWR_7_o_Mux_37_o|         |    5.467|         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cto1/I[15]_PWR_7_o_Mux_37_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    6.513|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.49 secs
+ 
+--> 
+
+Total memory usage is 4619300 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   28 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

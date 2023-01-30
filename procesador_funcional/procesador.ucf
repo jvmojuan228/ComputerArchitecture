@@ -1,0 +1,26 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "portb[7]" IOSTANDARD = LVCMOS33;
+NET "portb[6]" IOSTANDARD = LVCMOS33;
+NET "portb[5]" IOSTANDARD = LVCMOS33;
+NET "portb[4]" IOSTANDARD = LVCMOS33;
+NET "portb[3]" IOSTANDARD = LVCMOS33;
+NET "portb[2]" IOSTANDARD = LVCMOS33;
+NET "portb[1]" IOSTANDARD = LVCMOS33;
+NET "portb[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "clr" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = E3;
+NET "clr" LOC = M18;
+NET "portb[7]" LOC = H17;
+NET "portb[6]" LOC = K15;
+NET "portb[5]" LOC = J13;
+NET "portb[4]" LOC = N14;
+NET "portb[3]" LOC = R18;
+NET "portb[2]" LOC = V17;
+NET "portb[1]" LOC = U17;
+NET "portb[0]" LOC = U16;

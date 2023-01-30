@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/ferna/Documents/FER/procesador/procesador_isim_beh.exe" -prj "C:/Users/ferna/Documents/FER/procesador/procesador_beh.prj" "work.procesador" 

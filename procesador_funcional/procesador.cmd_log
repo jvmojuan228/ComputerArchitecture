@@ -1,0 +1,164 @@
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.xst" -ofn "C:/Xilinx/ArquitecturaDeComputadoras/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+netgen -intstyle ise -ar Structure -tm procesador -w -dir netgen/synthesis -ofmt vhdl -sim procesador.ngc procesador_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+netgen -intstyle ise -ar Structure -tm procesador -w -dir netgen/synthesis -ofmt vhdl -sim procesador.ngc procesador_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/arquitecturaCOM/procesador/procesador.syr" 
+netgen -intstyle ise -ar Structure -tm procesador -w -dir netgen/synthesis -ofmt vhdl -sim procesador.ngc procesador_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+netgen -intstyle ise -ar Structure -tm procesador -w -dir netgen/synthesis -ofmt vhdl -sim procesador.ngc procesador_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/Alan/Desktop/procesador/procesador.xst" -ofn "C:/Users/Alan/Desktop/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/ferna/Documents/FER/procesador/procesador.xst" -ofn "C:/Users/ferna/Documents/FER/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 
+xst -intstyle ise -ifn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.xst" -ofn "C:/Users/jvmom/OneDrive/Escritorio/procesador/procesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc procesador.ucf -p xc7a100t-csg324-2 procesador.ngc procesador.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o procesador_map.ncd procesador.ngd procesador.pcf 
+par -w -intstyle ise -ol high -mt off procesador_map.ncd procesador.ncd procesador.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr procesador.pcf -ucf procesador.ucf 
+bitgen -intstyle ise -f procesador.ut procesador.ncd 

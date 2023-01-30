@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.ncd
+OUTFILE=C:\Users\jvmom\OneDrive\Escritorio\procesador\procesador.bit
+FAMILY=Artix7
+PART=xc7a100t-2csg324
+WORKINGDIR=C:\Users\jvmom\OneDrive\Escritorio\procesador
+LICENSE=WebPack
+USER_INFO=212535997_0_0_034

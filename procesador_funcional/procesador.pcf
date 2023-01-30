@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jan 18 18:50:26 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "portb<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "portb<3>" LOCATE = SITE "R18" LEVEL 1;
+COMP "portb<2>" LOCATE = SITE "V17" LEVEL 1;
+COMP "portb<1>" LOCATE = SITE "U17" LEVEL 1;
+COMP "portb<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "portb<7>" LOCATE = SITE "H17" LEVEL 1;
+COMP "portb<6>" LOCATE = SITE "K15" LEVEL 1;
+COMP "portb<5>" LOCATE = SITE "J13" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "clr" LOCATE = SITE "M18" LEVEL 1;
+SCHEMATIC END;
+
