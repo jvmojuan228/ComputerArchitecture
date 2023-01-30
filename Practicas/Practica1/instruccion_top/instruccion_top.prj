@@ -1,0 +1,4 @@
+vhdl work "../Registro/registro.vhd"
+vhdl work "../ruta_datos/ruta_datos.vhd"
+vhdl work "../ruta/ruta.vhd"
+vhdl work "instruccion_top.vhd"

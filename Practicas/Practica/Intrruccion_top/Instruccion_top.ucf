@@ -1,0 +1,78 @@
+
+
+NET "id[3]" IOSTANDARD = LVCMOS33;
+NET "id[2]" IOSTANDARD = LVCMOS33;
+NET "id[1]" IOSTANDARD = LVCMOS33;
+NET "id[0]" IOSTANDARD = LVCMOS33;
+NET "ir[3]" IOSTANDARD = LVCMOS33;
+NET "ir[2]" IOSTANDARD = LVCMOS33;
+NET "ir[1]" IOSTANDARD = LVCMOS33;
+NET "ir[0]" IOSTANDARD = LVCMOS33;
+NET "qd[3]" IOSTANDARD = LVCMOS33;
+NET "qd[2]" IOSTANDARD = LVCMOS33;
+NET "qd[1]" IOSTANDARD = LVCMOS33;
+NET "qd[0]" IOSTANDARD = LVCMOS33;
+NET "C" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "clr" IOSTANDARD = LVCMOS33;
+NET "inicio" IOSTANDARD = LVCMOS33;
+NET "N" IOSTANDARD = LVCMOS33;
+NET "V" IOSTANDARD = LVCMOS33;
+NET "Z" IOSTANDARD = LVCMOS33;
+
+
+NET "clk" LOC = E3;
+NET "id[3]" LOC = T13;
+NET "id[2]" LOC = R16;
+NET "id[1]" LOC = U8;
+NET "id[0]" LOC = T8;
+NET "ir[3]" LOC = R15;
+NET "ir[2]" LOC = M13;
+NET "ir[1]" LOC = L16;
+NET "ir[0]" LOC = J15;
+NET "clr" LOC = P17;
+
+# PlanAhead Generated IO constraints 
+
+NET "id[7]" IOSTANDARD = LVCMOS33;
+NET "id[6]" IOSTANDARD = LVCMOS33;
+NET "id[5]" IOSTANDARD = LVCMOS33;
+NET "id[4]" IOSTANDARD = LVCMOS33;
+NET "ir[7]" IOSTANDARD = LVCMOS33;
+NET "ir[6]" IOSTANDARD = LVCMOS33;
+NET "ir[5]" IOSTANDARD = LVCMOS33;
+NET "ir[4]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "ir[4]" LOC = R17;
+NET "ir[5]" LOC = T18;
+NET "ir[6]" LOC = U18;
+NET "ir[7]" LOC = R13;
+NET "id[4]" LOC = H6;
+NET "id[5]" LOC = U12;
+NET "id[6]" LOC = U11;
+NET "id[7]" LOC = V10;
+
+# PlanAhead Generated IO constraints 
+
+NET "qd[4]" IOSTANDARD = LVCMOS33;
+NET "qd[5]" IOSTANDARD = LVCMOS33;
+NET "qd[6]" IOSTANDARD = LVCMOS33;
+NET "qd[7]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "qd[7]" LOC = V11;
+NET "qd[6]" LOC = V12;
+NET "qd[5]" LOC = V14;
+NET "qd[4]" LOC = V15;
+NET "qd[3]" LOC = T16;
+NET "qd[2]" LOC = U14;
+NET "qd[1]" LOC = T15;
+NET "qd[0]" LOC = V16;
+NET "C" LOC = U16;
+NET "N" LOC = U17;
+NET "V" LOC = V17;
+NET "Z" LOC = R18;
+NET "inicio" LOC = M17;

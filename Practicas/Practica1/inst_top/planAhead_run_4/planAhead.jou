@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Oct 18 19:45:12 2022
+# Process ID: 11592
+# Log file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica1/inst_top/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica1/inst_top/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/Practicas/Practica1/inst_top/pa.fromNetlist.tcl}
+set_property iostandard LVCMOS33 [get_ports [list Z]]
+set_property is_loc_fixed false [get_ports [list  clr]]
+set_property is_loc_fixed true [get_ports [list  clr]]
+save_constraints
