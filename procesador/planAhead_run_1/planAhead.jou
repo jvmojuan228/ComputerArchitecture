@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Jan 06 19:34:57 2023
+# Process ID: 15460
+# Log file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/pa.fromNetlist.tcl}
+set_property iostandard LVCMOS33 [get_ports [list {portb[7]} {portb[6]} {portb[5]} {portb[4]} {portb[3]} {portb[2]} {portb[1]} {portb[0]}]]
+set_property package_pin "" [get_ports [list  {portb[7]}]]
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list clr]]
+startgroup
+set_property package_pin V11 [get_ports {portb[7]}]
+endgroup
+startgroup
+set_property package_pin V12 [get_ports {portb[6]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {portb[5]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {portb[4]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {portb[3]}]
+endgroup
+startgroup
+set_property package_pin U14 [get_ports {portb[2]}]
+endgroup
+startgroup
+set_property package_pin T15 [get_ports {portb[1]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {portb[0]}]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin U11 [get_ports clr]
+endgroup
+save_constraints

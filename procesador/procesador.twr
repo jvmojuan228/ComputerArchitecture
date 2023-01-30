@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml procesador.twx procesador.ncd -o procesador.twr
+procesador.pcf -ucf procesador.ucf
+
+Design file:              procesador.ncd
+Physical constraint file: procesador.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+clr         |    1.831(R)|      FAST  |    1.022(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+portb<0>    |        10.846(R)|      SLOW  |         4.309(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<1>    |        10.456(R)|      SLOW  |         4.068(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<2>    |        10.554(R)|      SLOW  |         4.164(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<3>    |        10.771(R)|      SLOW  |         4.269(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<4>    |        10.527(R)|      SLOW  |         4.134(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<5>    |        10.045(R)|      SLOW  |         3.876(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<6>    |        10.270(R)|      SLOW  |         4.006(R)|      FAST  |clk_BUFGP         |   0.000|
+portb<7>    |        10.166(R)|      SLOW  |         3.935(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.317|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Jan 17 19:03:44 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5002 MB
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/procesador_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="procesador" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/procesador/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/portb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">portb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/i_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/pc_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/i_pc_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_pc_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_pc_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/off_br_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">off_br_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">off_br_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/off_rjmp_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">off_rjmp_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">off_rjmp_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/offset_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">offset_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">offset_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/dato_i_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dato_i_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dato_i_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/o_r_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_r_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_r_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/o_d_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_d_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_d_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/f_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">f_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/sel_read_d_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_read_d_aux[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_read_d_aux[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/sel_read_r_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_read_r_aux[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_read_r_aux[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/sel_w_d_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_w_d_aux[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_w_d_aux[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/sel_alu_aux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_alu_aux[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_alu_aux[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/ld_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld_aux</obj_property>
+      <obj_property name="ObjectShortName">ld_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/sel_rel_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_rel_aux</obj_property>
+      <obj_property name="ObjectShortName">sel_rel_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/br_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">br_aux</obj_property>
+      <obj_property name="ObjectShortName">br_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/en_w_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_w_aux</obj_property>
+      <obj_property name="ObjectShortName">en_w_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/en_port_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_port_aux</obj_property>
+      <obj_property name="ObjectShortName">en_port_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/en_sreg_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_sreg_aux</obj_property>
+      <obj_property name="ObjectShortName">en_sreg_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/ld_mov_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld_mov_aux</obj_property>
+      <obj_property name="ObjectShortName">ld_mov_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/branch_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch_aux</obj_property>
+      <obj_property name="ObjectShortName">branch_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/s_sreg_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s_sreg_aux</obj_property>
+      <obj_property name="ObjectShortName">s_sreg_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/ent_sreg_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ent_sreg_aux</obj_property>
+      <obj_property name="ObjectShortName">ent_sreg_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/procesador/cs_aux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs_aux</obj_property>
+      <obj_property name="ObjectShortName">cs_aux</obj_property>
+   </wvobject>
+</wave_config>

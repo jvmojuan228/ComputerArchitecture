@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/procesador_isim_beh.exe -prj C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/procesador_beh.prj work.procesador 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../registro/registro.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../Multiplexor/mux.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../Decodificador/Decodificador.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../sreg/sreg.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../rom/rom.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../program_counter/program_counter.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../ext_sig_rjmp/ext_sig_rjmp.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../ext_sig_br/ext_sig_br.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../Decodificador_instruccion/Decodificador_instruccion.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../archivo_reg/archivo_reg.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/../ALU/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/procesador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Decodificador_instruccion [decodificador_instruccion_defaul...]
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behavioral of entity rom [rom_default]
+Compiling architecture behavioral of entity Decodificador [decodificador_default]
+Compiling architecture behavioral of entity registro [registro_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity archivo_reg [archivo_reg_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity sreg [sreg_default]
+Compiling architecture behavioral of entity ext_sig_br [ext_sig_br_default]
+Compiling architecture behavioral of entity ext_sig_rjmp [ext_sig_rjmp_default]
+Compiling architecture behavioral of entity procesador
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable C:/Users/jvmom/OneDrive/Escritorio/5to Semestre/Arquitectura de Computadoras/procesador/procesador_isim_beh.exe
+Fuse Memory Usage: 35500 KB
+Fuse CPU Usage: 531 ms
