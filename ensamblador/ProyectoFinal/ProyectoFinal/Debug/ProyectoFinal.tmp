@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\Debug\ProyectoFinal.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProyectoFinal.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProyectoFinal.map</FILE>
+  <FILE>ProyectoFinal.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <vuelta><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>24</LINE></vuelta>
+  <lazo3_1><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>28</LINE></lazo3_1>
+  <lazo2_1><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>29</LINE></lazo2_1>
+  <lazo1_1><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>30</LINE></lazo1_1>
+  <lazo3_2><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>62</LINE></lazo3_2>
+  <lazo2_2><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>63</LINE></lazo2_2>
+  <lazo1_2><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>64</LINE></lazo1_2>
+  <lazo3_3><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>87</LINE></lazo3_3>
+  <lazo2_3><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>88</LINE></lazo2_3>
+  <lazo1_3><FILE>C:\Users\jvmom\OneDrive\Escritorio\5to Semestre\Arquitectura de Computadoras\ensamblador\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>89</LINE></lazo1_3>
+ </LABELS>
+</ASSEMBLER_INFO>

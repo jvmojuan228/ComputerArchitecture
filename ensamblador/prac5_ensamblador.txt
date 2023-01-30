@@ -1,0 +1,84 @@
+;
+; Proyecto1.asm
+;
+; Created: 09/12/2022 07:06:46 p. m.
+; Author : jvmom
+;
+
+
+; Replace with your application code
+;para probar poner los contadores a 1
+	.def temp=r16
+	.def cte=r17
+	.def cont1=r18
+	.def cont2=r19
+	.def cont3=r20
+	.cseg
+	.org 0
+
+	ldi temp, $01
+izquierda:out portb,temp
+	ldi cte,$01
+	ldi cont1, 31
+lazo3:ldi cont2, 200
+lazo2:ldi cont3, 200
+
+lazo1:nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+
+	sub cont3, cte
+	brne lazo1
+;investigar como hacerlo de tarea
+; va decrementando hasta que sea cero
+	sub cont2, cte
+	brne lazo2
+;es similar a un segundo ciclo for anidado
+	sub cont1,cte
+	brne lazo3
+
+	;lsl temp
+	;out portb,temp
+;delay de 125ms que es lo que hacemos con los lazos
+
+	ldi r21, $80 ;$80 es porque cuando ya recorrio todos los leds
+	sub temp, r21 ;si da cero hacemos un breq para hacer el corrimiento a la derecha
+	breq derecha
+	add temp, r21
+	lsl temp
+	rjmp izquierda
+derecha: ldi temp,$40
+derecha2:out portb, temp
+	;delay de 125, lo mismo de abajo de izquierda, no usar los mismos lazos
+	ldi cont1, 31
+lazo6:ldi cont2, 200
+lazo5:ldi cont3, 200
+
+lazo4:nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+
+	sub cont3, cte
+	brne lazo4
+	sub cont2, cte
+	brne lazo5
+	sub cont1,cte
+	brne lazo6
+
+	;checando que ya recorrimos todo
+	ldi r21,$01
+	sub temp,r21
+	breq izquierda2
+	add temp,r21
+	lsr temp
+	rjmp derecha2
+izquierda2: ldi temp,$02
+	rjmp izquierda
