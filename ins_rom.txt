@@ -1,0 +1,715 @@
+when x"0000"=>O<=x"01e0";
+when x"0001"=>O<=x"05b9";
+when x"0002"=>O<=x"11e0";
+when x"0003"=>O<=x"2fe1";
+when x"0004"=>O<=x"38ec";
+when x"0005"=>O<=x"48ec";
+when x"0006"=>O<=x"0000";
+when x"0007"=>O<=x"0000";
+when x"0008"=>O<=x"0000";
+when x"0009"=>O<=x"0000";
+when x"000a"=>O<=x"0000";
+when x"000b"=>O<=x"0000";
+when x"000c"=>O<=x"0000";
+when x"000d"=>O<=x"411b";
+when x"000e"=>O<=x"b9f7";
+when x"000f"=>O<=x"311b";
+when x"0010"=>O<=x"a1f7";
+when x"0011"=>O<=x"211b";
+when x"0012"=>O<=x"89f7";
+when x"0013"=>O<=x"50e8";
+when x"0014"=>O<=x"051b";
+when x"0015"=>O<=x"19f0";
+when x"0016"=>O<=x"050f";
+when x"0017"=>O<=x"000f";
+when x"0018"=>O<=x"e8cf";
+when x"0019"=>O<=x"00e4";
+when x"001a"=>O<=x"05b9";
+when x"001b"=>O<=x"2fe1";
+when x"001c"=>O<=x"38ec";
+when x"001d"=>O<=x"48ec";
+when x"001e"=>O<=x"0000";
+when x"001f"=>O<=x"0000";
+when x"0020"=>O<=x"0000";
+when x"0021"=>O<=x"0000";
+when x"0022"=>O<=x"0000";
+when x"0023"=>O<=x"0000";
+when x"0024"=>O<=x"0000";
+when x"0025"=>O<=x"411b";
+when x"0026"=>O<= x"b9f7";
+when x"0027"=>O<= x"311b";
+when x"0028"=>O<= x"a1f7";
+when x"0029"=>O<= x"211b";
+when x"002a"=>O<= x"89f7";
+when x"002b"=>O<= x"51e0";
+when x"002c"=>O<= x"051b";
+when x"002d"=>O<= x"19f0";
+when x"002e"=>O<= x"050f";
+when x"002f"=>O<= x"0695";
+when x"0030"=>O<= x"e9cf";
+when x"0031"=>O<= x"02e0";
+when x"0032"=>O<= x"cecf";
+
+
+when x"0000"=>O<=x"e001";
+when x"0001"=>O<=x"b905";
+when x"0002"=>O<=x"e011";
+when x"0003"=>O<=x"e021";
+when x"0004"=>O<=x"e031";
+when x"0005"=>O<=x"e041";
+when x"0006"=>O<=x"0000";
+when x"0007"=>O<=x"0000";
+when x"0008"=>O<=x"0000";
+when x"0009"=>O<=x"0000";
+when x"000A"=>O<=x"0000";
+when x"000B"=>O<=x"0000";
+when x"000C"=>O<=x"0000";
+when x"000D"=>O<=x"1b41";
+when x"000E"=>O<=x"f7b9";
+when x"000F"=>O<=x"1b31";
+when x"0010"=>O<=x"f7a1";
+when x"0011"=>O<=x"1b21";
+when x"0012"=>O<=x"f789";
+when x"0013"=>O<=x"e850";
+when x"0014"=>O<=x"1b05";
+when x"0015"=>O<=x"f019";
+when x"0016"=>O<=x"0f05";
+when x"0017"=>O<=x"0f00";
+when x"0018"=>O<=x"cfe8";
+when x"0019"=>O<=x"e400";
+when x"001A"=>O<=x"b905";
+when x"001B"=>O<=x"e021";
+when x"001C"=>O<=x"e031";
+when x"001D"=>O<=x"e041";
+when x"001E"=>O<=x"0000";
+when x"001F"=>O<=x"0000";
+when x"0020"=>O<=x"0000";
+when x"0021"=>O<=x"0000";
+when x"0022"=>O<=x"0000";
+when x"0023"=>O<=x"0000";
+when x"0024"=>O<=x"0000";
+when x"0025"=>O<=x"1b41";
+when x"0026"=>O<=x"f7b9";
+when x"0027"=>O<=x"1b31";
+when x"0028"=>O<=x"f7a1";
+when x"0029"=>O<=x"1b21";
+when x"002A"=>O<=x"f789";
+when x"002B"=>O<=x"e051";
+when x"002C"=>O<=x"1b05";
+when x"002D"=>O<=x"f019";
+when x"002E"=>O<=x"0f05";
+when x"002F"=>O<=x"9506";
+when x"0030"=>O<=x"cfe9";
+when x"0031"=>O<=x"e002";
+when x"0032"=>O<=x"cfce";
+/// Sin lazos
+when x"0000"=>O<="e001";
+when x"0002"=>O<="b905";
+when x"0004"=>O<="e850";
+when x"0006"=>O<="1b05";
+when x"0008"=>O<="f019";
+when x"000A"=>O<="0f05";
+when x"000C"=>O<="0f00";
+when x"000E"=>O<="cff9";
+when x"0010"=>O<="e400";
+when x"0012"=>O<="b905";
+when x"0014"=>O<="e021";
+when x"0016"=>O<="e031";
+when x"0018"=>O<="e041";
+when x"001A"=>O<="0000";
+when x"001C"=>O<="0000";
+when x"001E"=>O<="0000";
+when x"0020"=>O<="0000";
+when x"0022"=>O<="0000";
+when x"0024"=>O<="0000";
+when x"0026"=>O<="0000";
+when x"0028"=>O<="1b41";
+when x"002A"=>O<="f7b9";
+when x"002C"=>O<="1b31";
+when x"002E"=>O<="f7a1";
+when x"0030"=>O<="1b21";
+when x"0032"=>O<="f789";
+when x"0034"=>O<="e051";
+when x"0036"=>O<="1b05";
+when x"0038"=>O<="f019";
+when x"003A"=>O<="0f05";
+when x"003C"=>O<="9506";
+when x"003E"=>O<="cfe9";
+when x"0040"=>O<="e002";
+when x"0042"=>O<="cfdf";
+when other=>"0000";
+
+//corregi
+
+when x"0000"=>O<=x"e001";
+when x"0001"=>O<=x"b905";
+when x"0002"=>O<=x"0f00";
+when x"0003"=>O<=x"b905";
+when x"0004"=>O<=x"e850";
+when x"0005"=>O<=x"1b05";
+when x"0006"=>O<=x"f019";
+when x"0007"=>O<=x"0f05";
+when x"0008"=>O<=x"0f00";
+when x"0009"=>O<=x"cff7";
+when x"000A"=>O<=x"e400";
+when x"000B"=>O<=x"b905";
+when x"000C"=>O<=x"e021";
+when x"000D"=>O<=x"e031";
+when x"000E"=>O<=x"e041";
+when x"000F"=>O<=x"0000";
+when x"0010"=>O<=x"0000";
+when x"0011"=>O<=x"0000";
+when x"0012"=>O<=x"0000";
+when x"0013"=>O<=x"0000";
+when x"0014"=>O<=x"0000";
+when x"0015"=>O<=x"0000";
+when x"0016"=>O<=x"1b41";
+when x"0017"=>O<=x"f7b9";
+when x"0018"=>O<=x"1b31";
+when x"0019"=>O<=x"f7a1";
+when x"001A"=>O<=x"1b21";
+when x"001B"=>O<=x"f789";
+when x"001C"=>O<=x"e051";
+when x"001D"=>O<=x"1b05";
+when x"001E"=>O<=x"f019";
+when x"001F"=>O<=x"0f05";
+when x"0020"=>O<=x"9506";
+when x"0021"=>O<=x"cfe9";
+when x"0022"=>O<=x"e002";
+when x"0023"=>O<=x"cfdd";
+
+lsr 9506
+
+when x"0000"=>O<=x"e001";
+when x"0001"=>O<=x"b905";
+when x"0002"=>O<=x"e011";
+when x"0003"=>O<=x"e12f";
+when x"0004"=>O<=x"ec38";
+when x"0005"=>O<=x"ec48";
+when x"0006"=>O<=x"0000";
+when x"0007"=>O<=x"0000";
+when x"0008"=>O<=x"0000";
+when x"0009"=>O<=x"0000";
+when x"000A"=>O<=x"0000";
+when x"000B"=>O<=x"0000";
+when x"000C"=>O<=x"0000";
+when x"000D"=>O<=x"1b41";
+when x"000E"=>O<=x"f7b9";
+when x"000F"=>O<=x"1b31";
+when x"0010"=>O<=x"f7a1";
+when x"0011"=>O<=x"1b21";
+when x"0012"=>O<=x"f789";
+when x"0013"=>O<=x"0f00";
+when x"0014"=>O<=x"b905";
+when x"0015"=>O<=x"e850";
+when x"0016"=>O<=x"1b05";
+when x"0017"=>O<=x"f019";
+when x"0018"=>O<=x"0f05";
+when x"0019"=>O<=x"0f00";
+when x"001A"=>O<=x"cfe6";
+when x"001B"=>O<=x"e400";
+when x"001C"=>O<=x"b905";
+when x"001D"=>O<=x"e12f";
+when x"001E"=>O<=x"ec38";
+when x"001F"=>O<=x"ec48";
+when x"0020"=>O<=x"0000";
+when x"0021"=>O<=x"0000";
+when x"0022"=>O<=x"0000";
+when x"0023"=>O<=x"0000";
+when x"0024"=>O<=x"0000";
+when x"0025"=>O<=x"0000";
+when x"0026"=>O<=x"0000";
+when x"0027"=>O<=x"1b41";
+when x"0028"=>O<=x"f7b9";
+when x"0029"=>O<=x"1b31";
+when x"002A"=>O<=x"f7a1";
+when x"002B"=>O<=x"1b21";
+when x"002C"=>O<=x"f789";
+when x"002D"=>O<=x"e051";
+when x"002E"=>O<=x"1b05";
+when x"002F"=>O<=x"f019";
+when x"0030"=>O<=x"0f05";
+when x"0031"=>O<=x"9506";
+when x"0032"=>O<=x"cfe9";
+when x"0033"=>O<=x"e002";
+when x"0034"=>O<=x"cfcc";
+
+prog 0x0000  e001  .à
+prog 0x0002  b905  ..
+prog 0x0004  e011  .à
+prog 0x0006  e12f  /á
+prog 0x0008  ec38  8ì
+prog 0x000A  ec48  Hì
+prog 0x000C  0000  ..
+prog 0x000E  0000  ..
+prog 0x0010  0000  ..
+prog 0x0012  0000  ..
+prog 0x0014  0000  ..
+prog 0x0016  0000  ..
+prog 0x0018  0000  ..
+prog 0x001A  1b41  A.
+prog 0x001C  f7b9  .÷
+prog 0x001E  1b31  1.
+prog 0x0020  f7a1  ¡÷
+prog 0x0022  1b21  !.
+prog 0x0024  f789  .÷
+prog 0x0026  0f00  ..
+prog 0x0028  b905  ..
+prog 0x002A  e850  Pè
+prog 0x002C  1b05  ..
+prog 0x002E  f019  .ð
+prog 0x0030  0f05  ..
+prog 0x0032  0f00  ..
+prog 0x0034  cfe6  æÏ
+prog 0x0036  e400  .ä
+prog 0x0038  b905  ..
+prog 0x003A  e12f  /á
+prog 0x003C  ec38  8ì
+prog 0x003E  ec48  Hì
+prog 0x0040  0000  ..
+prog 0x0042  0000  ..
+prog 0x0044  0000  ..
+prog 0x0046  0000  ..
+prog 0x0048  0000  ..
+prog 0x004A  0000  ..
+prog 0x004C  0000  ..
+prog 0x004E  1b41  A.
+prog 0x0050  f7b9  .÷
+prog 0x0052  1b31  1.
+prog 0x0054  f7a1  ¡÷
+prog 0x0056  1b21  !.
+prog 0x0058  f789  .÷
+prog 0x005A  e051  Qà
+prog 0x005C  1b05  ..
+prog 0x005E  f019  .ð
+prog 0x0060  0f05  ..
+prog 0x0062  9506  ..
+prog 0x0064  cfe9  éÏ
+prog 0x0066  e002  .à
+prog 0x0068  cfcc  ÌÏ
+
+
+//sin delay
+
+prog 0x0000  e001  .à
+prog 0x0002  b905  ..
+prog 0x0004  0f00  ..
+prog 0x0006  b905  ..
+prog 0x0008  e850  Pè
+prog 0x000A  1b05  ..
+prog 0x000C  f019  .ð
+prog 0x000E  0f05  ..
+prog 0x0010  0f00  ..
+prog 0x0012  cff7  ÷Ï
+prog 0x0014  e400  .ä
+prog 0x0016  b905  ..
+prog 0x0018  e12f  /á
+prog 0x001A  ec38  8ì
+prog 0x001C  ec48  Hì
+prog 0x001E  0000  ..
+prog 0x0020  0000  ..
+prog 0x0022  0000  ..
+prog 0x0024  0000  ..
+prog 0x0026  0000  ..
+prog 0x0028  0000  ..
+prog 0x002A  0000  ..
+prog 0x002C  1b41  A.
+prog 0x002E  f7b9  .÷
+prog 0x0030  1b31  1.
+prog 0x0032  f7a1  ¡÷
+prog 0x0034  1b21  !.
+prog 0x0036  f789  .÷
+prog 0x0038  e051  Qà
+prog 0x003A  1b05  ..
+prog 0x003C  f019  .ð
+prog 0x003E  0f05  ..
+prog 0x0040  9506  ..
+prog 0x0042  cfe9  éÏ
+prog 0x0044  e002  .à
+prog 0x0046  cfdd  ÝÏ
+
+when x"0000"=>O<=x"e001";
+when x"0001"=>O<=x"b905";
+when x"0002"=>O<=x"0f00";
+when x"0003"=>O<=x"b905";
+when x"0004"=>O<=x"e850";
+when x"0005"=>O<=x"1b05";
+when x"0006"=>O<=x"f019";
+when x"0007"=>O<=x"0f05";
+when x"0008"=>O<=x"0f00";
+when x"0009"=>O<=x"cff7";
+when x"000A"=>O<=x"e400";
+when x"000B"=>O<=x"b905";
+when x"000C"=>O<=x"e12f";
+when x"000D"=>O<=x"ec38";
+when x"000E"=>O<=x"ec48";
+when x"000F"=>O<=x"0000";
+when x"0010"=>O<=x"0000";
+when x"0011"=>O<=x"0000";
+when x"0012"=>O<=x"0000";
+when x"0013"=>O<=x"0000";
+when x"0014"=>O<=x"0000";
+when x"0015"=>O<=x"0000";
+when x"0016"=>O<=x"1b41";
+when x"0017"=>O<=x"f7b9";
+when x"0018"=>O<=x"1b31";
+when x"0019"=>O<=x"f7a1";
+when x"001A"=>O<=x"1b21";
+when x"001B"=>O<=x"f789";
+when x"001C"=>O<=x"e051";
+when x"001D"=>O<=x"1b05";
+when x"001E"=>O<=x"f019";
+when x"001F"=>O<=x"0f05";
+when x"0020"=>O<=x"9506";
+when x"0021"=>O<=x"cfe9";
+when x"0022"=>O<=x"e002";
+when x"0023"=>O<=x"cfdd";
+
+prog 0x0000  e001  .à
+prog 0x0002  b905  ..
+prog 0x0004  0f00  ..
+prog 0x0006  b905  ..
+prog 0x0008  e850  Pè
+prog 0x000A  1b05  ..
+prog 0x000C  f019  .ð
+prog 0x000E  0f05  ..
+prog 0x0010  0f00  ..
+prog 0x0012  cff7  ÷Ï
+prog 0x0014  e400  .ä
+prog 0x0016  b905  ..
+prog 0x0018  e051  Qà
+prog 0x001A  1b05  ..
+prog 0x001C  f019  .ð
+prog 0x001E  0f05  ..--
+prog 0x0020  9506  ..
+prog 0x0022  cff9  ùÏ
+prog 0x0024  e002  .à
+prog 0x0026  cfed  íÏ
+
+
+when x"0000"=>O<=x"e001";
+when x"0001"=>O<=x"b905";
+when x"0002"=>O<=x"0f00";
+when x"0003"=>O<=x"b905";
+when x"0004"=>O<=x"e850";
+when x"0005"=>O<=x"1b05";
+when x"0006"=>O<=x"f019";
+when x"0007"=>O<=x"0f05";
+when x"0008"=>O<=x"0f00";
+when x"0009"=>O<=x"cff7";
+when x"000A"=>O<=x"e400";
+when x"000B"=>O<=x"b905";
+when x"000C"=>O<=x"e051";
+when x"000D"=>O<=x"1b05";
+when x"000E"=>O<=x"f019";
+when x"000A"=>O<=x"0f05";
+when x"000B"=>O<=x"9506";
+when x"000C"=>O<=x"cff9";
+when x"000D"=>O<=x"e002";
+when x"000E"=>O<=x"cfed";
+
+PRUEBA FINAL
+
+
+when x"0000" =>O<=x"e001";
+when x"0001" =>O<=x"b905";
+when x"0002" =>O<=x"e011";
+when x"0003" =>O<=x"e12f";
+when x"0004" =>O<=x"ec38";
+when x"0005" =>O<=x"ec48";
+when x"0006" =>O<=x"0000";
+when x"0007" =>O<=x"0000";
+when x"0008" =>O<=x"0000";
+when x"0009" =>O<=x"0000";
+when x"000A" =>O<=x"0000";
+when x"000B" =>O<=x"0000";
+when x"000C" =>O<=x"0000";
+when x"000D" =>O<=x"1b41";
+when x"000E" =>O<=x"f7b9";
+when x"000F" =>O<=x"1b31";
+when x"0010" =>O<=x"f7a1";
+when x"0011" =>O<=x"1b21";
+when x"0012" =>O<=x"f789";
+when x"0013" =>O<=x"0f00";
+when x"0014" =>O<=x"b905";
+when x"0015" =>O<=x"e850";
+when x"0016" =>O<=x"1b05";
+when x"0017" =>O<=x"f019";
+when x"0018" =>O<=x"0f05";
+when x"0019" =>O<=x"0f00";
+when x"001A" =>O<=x"cfe6";
+when x"001B" =>O<=x"cfff";
+when x"001C" =>O<=x"e400";
+when x"001D" =>O<=x"b905";
+when x"001E" =>O<=x"e12f";
+when x"001F" =>O<=x"ec38";
+when x"0020" =>O<=x"ec48";
+when x"0021" =>O<=x"0000";
+when x"0022" =>O<=x"0000";
+when x"0023" =>O<=x"0000";
+when x"0024" =>O<=x"0000";
+when x"0025" =>O<=x"0000";
+when x"0026" =>O<=x"0000";
+when x"0027" =>O<=x"0000";
+when x"0028" =>O<=x"1b41";
+when x"0029" =>O<=x"f7b9";
+when x"002A" =>O<=x"1b31";
+when x"002B" =>O<=x"f7a1";
+when x"002C" =>O<=x"1b21";
+when x"002D" =>O<=x"f789";
+when x"002E" =>O<=x"e051";
+when x"002F" =>O<=x"1b05";
+when x"0030" =>O<=x"f019";
+when x"0031" =>O<=x"0f05";
+when x"0032" =>O<=x"9506";
+when x"0033" =>O<=x"cfe9";
+when x"0034" =>O<=x"e002";
+when x"0035" =>O<=x"cfcb";
+
+
+when x"0000" =>O<= x"01e0";
+when x"0001" =>O<= x"05b9";
+when x"0002" =>O<= x"11e0";
+when x"0003" =>O<= x"2fe1";
+when x"0004" =>O<= x"38ec";
+when x"0005" =>O<= x"48ec";
+when x"0006" =>O<= x"0000";
+when x"0007" =>O<= x"0000";
+when x"0008" =>O<= x"0000";
+when x"0009" =>O<= x"0000";
+when x"000A" =>O<= x"0000";
+when x"000B" =>O<= x"0000";
+when x"000C" =>O<= x"0000";
+when x"000D" =>O<= x"411b";
+when x"000E" =>O<= x"b9f7";
+when x"000F" =>O<= x"311b";
+when x"0010" =>O<= x"a1f7";
+when x"0011" =>O<= x"211b";
+when x"0012" =>O<= x"89f7";
+when x"0013" =>O<= x"000f";
+when x"0014" =>O<= x"05b9";
+when x"0015" =>O<= x"50e8";
+when x"0016" =>O<= x"051b";
+when x"0017" =>O<= x"19f0";
+when x"0018" =>O<= x"050f";
+when x"0019" =>O<= x"000f";
+when x"001A" =>O<= x"e6cf";
+when x"001B" =>O<= x"ffcf";
+when x"001C" =>O<= x"00e4";
+when x"001D" =>O<= x"05b9";
+when x"001E" =>O<= x"2fe1";
+when x"001F" =>O<= x"38ec";
+when x"0020" =>O<= x"48ec";
+when x"0021" =>O<= x"0000";
+when x"0022" =>O<= x"0000";
+when x"0023" =>O<= x"0000";
+when x"0024" =>O<= x"0000";
+when x"0025" =>O<= x"0000";
+when x"0026" =>O<= x"0000";
+when x"0027" =>O<= x"0000";
+when x"0028" =>O<= x"411b";
+when x"0029" =>O<= x"b9f7";
+when x"002A" =>O<= x"311b";
+when x"002B" =>O<= x"a1f7";
+when x"002C" =>O<= x"211b";
+when x"002D" =>O<= x"89f7";
+when x"002E" =>O<= x"51e0";
+when x"002F" =>O<= x"051b";
+when x"0030" =>O<= x"19f0";
+when x"0031" =>O<= x"050f";
+when x"0032" =>O<= x"0695";
+when x"0033" =>O<= x"e9cf";
+when x"0034" =>O<= x"02e0";
+when x"0035" =>O<= x"cbcf";
+
+
+
+chidoo
+
+
+when X"0000"=>O<=X"e001";
+			when X"0001"=>O<=X"b905";
+			when X"0002"=>O<=X"e011";
+			when X"0003"=>O<=X"e15f";
+			when X"0004"=>O<=X"ec38";
+			when X"0005"=>O<=X"ec48";
+			when X"0006"=>O<=X"0000";
+			when X"0007"=>O<=X"0000";
+			when X"0008"=>O<=X"0000";
+			when X"0009"=>O<=X"0000";
+			when X"000A"=>O<=X"0000";
+			when X"000B"=>O<=X"0000";
+			when X"000C"=>O<=X"0000";
+			when X"000D"=>O<=X"0000";
+			when X"000E"=>O<=X"1b41";
+			when X"000F"=>O<=X"f7b9";
+			when X"0010"=>O<=X"1b31";
+			when X"0011"=>O<=X"f7a1";
+			when X"0012"=>O<=X"1b21";
+			when X"0013"=>O<=X"f789";
+			when X"0014"=>O<=X"e820";
+			when X"0015"=>O<=X"1b02";
+			when X"0016"=>O<=X"f019";
+			when X"0017"=>O<=X"0f02";
+			when X"0018"=>O<=X"0f00";
+			when X"0019"=>O<=X"cfe7";
+			when X"001A"=>O<=X"e400";
+			when X"001B"=>O<=X"b905";
+			when X"001C"=>O<=X"e011";
+			when X"001D"=>O<=X"e16f";
+			when X"001E"=>O<=X"ec78";
+			when X"001F"=>O<=X"ec88";
+			when X"0020"=>O<=X"0000";
+			when X"0021"=>O<=X"0000";
+			when X"0022"=>O<=X"0000";
+			when X"0023"=>O<=X"0000";
+			when X"0024"=>O<=X"0000";
+			when X"0025"=>O<=X"0000";
+			when X"0026"=>O<=X"0000";
+			when X"0027"=>O<=X"0000";
+			when X"0028"=>O<=X"1b81";
+			when X"0029"=>O<=X"f7b1";
+			when X"002A"=>O<=X"1b71";
+			when X"002B"=>O<=X"f799";
+			when X"002C"=>O<=X"1b61";
+			when X"002D"=>O<=X"f781";
+			when X"002E"=>O<=X"e021";
+			when X"002F"=>O<=X"1b02";
+			when X"0030"=>O<=X"f019";
+			when X"0031"=>O<=X"0f02";
+			when X"0032"=>O<=X"9506";
+			when X"0033"=>O<=X"cfe7";
+			when X"0034"=>O<=X"e002";
+			when others =>O<=X"cfcb";
+
+proyecto
+            when X"0000"=>O<=X"e801";
+            when X"0001"=>O<=X"b905";
+			when X"0002"=>O<=X"e011";
+			when X"0003"=>O<=X"e15f";
+			when X"0004"=>O<=X"ec38"; ---
+			when X"0005"=>O<=X"ec48";
+			when X"0006"=>O<=X"0000";
+			when X"0007"=>O<=X"0000";
+			when X"0008"=>O<=X"0000";
+			when X"0009"=>O<=X"0000";
+			when X"000A"=>O<=X"0000";
+			when X"000B"=>O<=X"0000";
+			when X"000C"=>O<=X"0000";
+			when X"000D"=>O<=X"0000";
+			when X"000E"=>O<=X"1b41";
+			when X"000F"=>O<=X"f7b1";
+			when X"0010"=>O<=X"1b31"; ---
+			when X"0011"=>O<=X"f799";
+			when X"0012"=>O<=X"1b51"; ---
+			when X"0013"=>O<=X"f781"; ---
+			when X"0014"=>O<=X"e402";
+			when X"0015"=>O<=X"b905";
+			when X"0016"=>O<=X"e011";
+			when X"0017"=>O<=X"e061";
+			when X"0018"=>O<=X"e072";
+			when X"0019"=>O<=X"e082";
+			when X"001A"=>O<=X"0000";
+			when X"001B"=>O<=X"0000";
+			when X"001C"=>O<=X"0000";
+			when X"001D"=>O<=X"0000";
+			when X"001E"=>O<=X"0000";
+			when X"001F"=>O<=X"0000";
+			when X"0020"=>O<=X"0000";
+			when X"0021"=>O<=X"0000";
+			when X"0022"=>O<=X"1b81";
+			when X"0023"=>O<=X"f7b1";
+			when X"0024"=>O<=X"1b71";
+			when X"0025"=>O<=X"f799";
+			when X"0026"=>O<=X"1b61";
+			when X"0027"=>O<=X"f781";
+			when X"0028"=>O<=X"e204";
+			when X"0029"=>O<=X"b905";
+			when X"002A"=>O<=X"e011";
+			when X"002B"=>O<=X"e19f";
+			when X"002C"=>O<=X"eca8";
+			when X"002D"=>O<=X"ecb8";
+			when X"002E"=>O<=X"0000";
+			when X"002F"=>O<=X"0000";
+			when X"0030"=>O<=X"0000";
+			when X"0031"=>O<=X"0000";
+			when X"0032"=>O<=X"0000";
+			when X"0033"=>O<=X"0000";
+			when X"0034"=>O<=X"0000";
+			when X"0035"=>O<=X"0000";
+			when X"0036"=>O<=X"1bb1";
+			when X"0037"=>O<=X"f7b1";
+			when X"0038"=>O<=X"1ba1";
+			when X"0039"=>O<=X"f799";
+			when X"003A"=>O<=X"1b91";
+			when X"003B"=>O<=X"f781";
+			when X"003C"=>O<=X"e108";
+			when X"003D"=>O<=X"b905";
+			when X"003E"=>O<=X"f209";
+
+			
+
+
+prog 0x0000  e801  .è
+prog 0x0002  b905  ..
+prog 0x0004  e011  .à
+prog 0x0006  e15f  _á
+prog 0x0008  ec38  8ì
+prog 0x000A  ec48  Hì
+prog 0x000C  0000  ..
+prog 0x000E  0000  ..
+prog 0x0010  0000  ..
+prog 0x0012  0000  ..
+prog 0x0014  0000  ..
+prog 0x0016  0000  ..
+prog 0x0018  0000  ..
+prog 0x001A  0000  ..
+prog 0x001C  1b41  A.
+prog 0x001E  f7b1  ±÷
+prog 0x0020  1b31  1.
+prog 0x0022  f799  ™÷
+prog 0x0024  1b51  Q.
+prog 0x0026  f781  .÷
+prog 0x0028  e402  .ä
+prog 0x002A  b905  ..
+prog 0x002C  e011  .à
+prog 0x002E  e061  aà
+prog 0x0030  e072  rà
+prog 0x0032  e082  .à
+prog 0x0034  0000  ..
+prog 0x0036  0000  ..
+prog 0x0038  0000  ..
+prog 0x003A  0000  ..
+prog 0x003C  0000  ..
+prog 0x003E  0000  ..
+prog 0x0040  0000  ..
+prog 0x0042  0000  ..
+prog 0x0044  1b81  ..
+prog 0x0046  f7b1  ±÷
+prog 0x0048  1b71  q.
+prog 0x004A  f799  ™÷
+prog 0x004C  1b61  a.
+prog 0x004E  f781  .÷
+prog 0x0050  e204  .â
+prog 0x0052  b905  ..
+prog 0x0054  e011  .à
+prog 0x0056  e19f  Ÿá
+prog 0x0058  eca8  ¨ì
+prog 0x005A  ecb8  ¸ì
+prog 0x005C  0000  ..
+prog 0x005E  0000  ..
+prog 0x0060  0000  ..
+prog 0x0062  0000  ..
+prog 0x0064  0000  ..
+prog 0x0066  0000  ..
+prog 0x0068  0000  ..
+prog 0x006A  0000  ..
+prog 0x006C  1bb1  ±.
+prog 0x006E  f7b1  ±÷
+prog 0x0070  1ba1  ¡.
+prog 0x0072  f799  ™÷
+prog 0x0074  1b91  ‘.
+prog 0x0076  f781  .÷
+prog 0x0078  e108  .á
+prog 0x007A  b905  ..
+prog 0x007C  f209  .ò
